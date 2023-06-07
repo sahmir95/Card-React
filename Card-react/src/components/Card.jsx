@@ -1,5 +1,5 @@
 import './Card.css'
-const Card = ({ title, image, description }) => {
+const Card = ({ title, image, desc }) => {
   return (
     <div className="card-container">
       <img className="image"
@@ -8,7 +8,7 @@ const Card = ({ title, image, description }) => {
       />
       <div className="content">
         <h2 className="title">{title}</h2>
-        <p className="text">{description}</p>
+        <p className="text">{desc}</p>
       </div>
       <div className='btn'>
         <button>
