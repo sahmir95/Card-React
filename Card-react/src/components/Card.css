@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 10px;
+    text-decoration: none;
 }
 body{
     display: flex;
@@ -34,4 +35,20 @@ body{
     margin: 0;
     font-size: 1.6rem;
     color: #6c6969;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 10px;
+}
+button{
+    border: none;
+}
+button a{
+    font-size: 1.3rem;
+    color: #2e7fa7;
+}
+button a:hover{
+    cursor: pointer;
+    color: #033952;
 }

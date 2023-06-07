@@ -10,6 +10,14 @@ const Card = ({ title, image, description }) => {
         <h2 className="title">{title}</h2>
         <p className="text">{description}</p>
       </div>
+      <div className='btn'>
+        <button>
+            <a href="#">SHARE</a>
+        </button>
+        <button>
+            <a href="#">LEARN MORE</a>
+        </button>
+      </div>
     </div>
   );
 };
